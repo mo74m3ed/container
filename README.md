@@ -13,6 +13,8 @@ The tool consumes and produces [OCI-compatible container images](https://github.
 
 ## Get started
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0ddbf215e77d42fea76c797b683b51da)](https://app.codacy.com/gh/mo74m3ed/container?utm_source=github.com&utm_medium=referral&utm_content=mo74m3ed/container&utm_campaign=Badge_Grade)
+
 ### Requirements
 
 You need a Mac with Apple silicon to run `container`. To build it, see the [BUILDING](./BUILDING.md) document.
