@@ -24,7 +24,6 @@ import ContainerXPC
 import Foundation
 import Logging
 import NIO
-import SystemPackage
 
 extension RuntimeLinuxHelper {
     struct Start: AsyncParsableCommand {
@@ -108,6 +107,7 @@ extension RuntimeLinuxHelper {
                         RuntimeRoutes.copyIn.rawValue: XPCServer.route(server.copyIn),
                         RuntimeRoutes.copyOut.rawValue: XPCServer.route(server.copyOut),
                         RuntimeRoutes.snapshotDisk.rawValue: XPCServer.route(server.snapshotDisk),
+                        RuntimeRoutes.clean.rawValue: XPCServer.route(server.clean),
                     ],
                     log: log
                 )
